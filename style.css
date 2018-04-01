@@ -1,0 +1,84 @@
+
+/* ----------------Corpo da página ---------------- */
+
+html, body {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    overflow: auto;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+body {
+    background: url(imagens/plano_fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.conteudo {
+    text-align: center;
+    height: 100%;
+}
+
+.cadastro {
+    background: url(imagens/cadastro_fundo.png) no-repeat,
+                url(imagens/cadastro_fundo_ruido.jpg) no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 520px;
+    margin-top: 5%;
+    color: white;
+    border-radius: 10px; 
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
+}
+
+/* -------------------- Botões --------------------- */
+
+.btn-custom {
+    height: 150px;
+    width: 150px;
+    margin-top: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 500px; 
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    background: rgb(59, 66, 70);
+}
+
+.btn:hover {
+    background: transparent;
+    color: rgb(85, 255, 85);
+}
+
+.btn-cad {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+/* -------------------- Tipografia ----------------- */
+
+h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 15px 0px 15px 0px;
+}
+
+/* -------------------- Footer --------------------- */
+
+footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    position: absolute;
+}
